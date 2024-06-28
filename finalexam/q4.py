@@ -1,13 +1,16 @@
 def add_left(x,a):
   x.insert(0,a)
 
+
 def add_right(x,a):
   x.append(a)
+
 
 def pop_left(x):
   if len(x)==0:
     return None
   return x.pop(0)
+
 
 def pop_right(x):
   if len(x)==0:
